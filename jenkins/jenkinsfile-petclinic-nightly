@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         APP_NAME="petclinic"
-        APP_REPO_NAME="sez-repo/${APP_NAME}-app-dev"
+        APP_REPO_NAME="sez-repo/${APP_NAME}/app-dev"
         AWS_ACCOUNT_ID=sh(script:'aws sts get-caller-identity --query Account --output text', returnStdout:true).trim()
         AWS_REGION="us-east-1"
         ECR_REGISTRY="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
