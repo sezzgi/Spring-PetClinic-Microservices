@@ -119,4 +119,4 @@ Note:
   - High availability design
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)ICENSE](LICENSE) file for details.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) (LICENSE) file for details.
